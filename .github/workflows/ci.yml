@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Create archive of index.html
-      run: tar cfz website.tgz ./
+        run: tar cfz website.tgz ./
